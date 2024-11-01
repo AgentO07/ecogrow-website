@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenPlates - Eco-Friendly Tableware</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Landing Page -->
+    <header class="landing">
+        <nav>
+            <ul>
+                <li><a href="#landing">Home</a></li>
+                <li><a href="#catalogue">Product Catalogue</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="landing-content">
+            <h1>GreenPlates - Go Green, Go Clean!</h1>
+            <p>Eco-friendly disposable plates and cups made out of sugarcane waste.</p>
+            <button onclick="window.location.href='#catalogue'">Explore Products</button>
+        </div>
+    </header>
+ <!-- Product Catalogue Page -->
+    <section id="catalogue" class="catalogue">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="images/plate.jpg" alt="Disposable Eco-Friendly Plate">
+            <h3>Biodegradable Plate</h3>
+            <p>Made from sugarcane waste, perfect for any event or occasion.</p>
+        </div>
+        <div class="product">
+            <img src="images/cup.jpg" alt="Disposable Eco-Friendly Cup">
+            <h3>Biodegradable Cup</h3>
+            <p>Sturdy and eco-friendly, a perfect alternative to plastic cups.</p>
+        </div>
+        <div class="product">
+            <img src="images/combopack.jpg" alt="Plate and Cup Combo">
+            <h3>Plate & Cup Combo Pack</h3>
+            <p>Get the ultimate eco-friendly package for your events.</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Page -->
+    <footer id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
