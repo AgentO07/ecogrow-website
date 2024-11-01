@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eco-friendly disposable plates and cups made from sugarcane waste. Sustainable and biodegradable tableware for events.">
+    <meta name="keywords" content="eco-friendly plates, disposable tableware, biodegradable cups, sustainable products">
     <title>GreenPlates - Eco-Friendly Tableware</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,9 +13,9 @@
     <header class="landing">
         <nav>
             <ul>
-                <li><a href="#landing">Home</a></li>
-                <li><a href="#catalogue">Product Catalogue</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#landing" aria-label="Home">Home</a></li>
+                <li><a href="#catalogue" aria-label="Product Catalogue">Product Catalogue</a></li>
+                <li><a href="#contact" aria-label="Contact Us">Contact Us</a></li>
             </ul>
         </nav>
         <div class="landing-content">
@@ -22,21 +24,22 @@
             <button onclick="window.location.href='#catalogue'">Explore Products</button>
         </div>
     </header>
- <!-- Product Catalogue Page -->
+ 
+    <!-- Product Catalogue Page -->
     <section id="catalogue" class="catalogue">
         <h2>Our Products</h2>
         <div class="product">
-            <img src="images/plate.jpg" alt="Disposable Eco-Friendly Plate">
+            <img src="images/plate.jpg" alt="Biodegradable disposable eco-friendly plate made from sugarcane waste">
             <h3>Biodegradable Plate</h3>
             <p>Made from sugarcane waste, perfect for any event or occasion.</p>
         </div>
         <div class="product">
-            <img src="images/cup.jpg" alt="Disposable Eco-Friendly Cup">
+            <img src="images/cup.jpg" alt="Biodegradable disposable eco-friendly cup made from sugarcane waste">
             <h3>Biodegradable Cup</h3>
             <p>Sturdy and eco-friendly, a perfect alternative to plastic cups.</p>
         </div>
         <div class="product">
-            <img src="images/combopack.jpg" alt="Plate and Cup Combo">
+            <img src="images/combopack.jpg" alt="Plate and cup combo pack - ultimate eco-friendly package">
             <h3>Plate & Cup Combo Pack</h3>
             <p>Get the ultimate eco-friendly package for your events.</p>
         </div>
@@ -57,6 +60,15 @@
 
             <button type="submit">Send Message</button>
         </form>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:info@greenplates.com">info@greenplates.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+            <div class="social-media">
+                <a href="#" aria-label="Facebook"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                <a href="#" aria-label="Twitter"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                <a href="#" aria-label="Instagram"><img src="images/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
