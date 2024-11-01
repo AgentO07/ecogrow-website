@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #228B22;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.landing {
+    background: url('images/eco-bg.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing-content h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.catalogue {
+    padding: 50px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.product {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.contact {
+    padding: 50px;
+    background-color: #eee;
+    text-align: center;
+}
